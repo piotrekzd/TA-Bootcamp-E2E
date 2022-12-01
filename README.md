@@ -20,13 +20,12 @@ Scenario: Internet shop logo button
 4. Click on the Internet shop logo (top right corner)
 5. Check that the main page opened
 
-# Extra requirements: 
-* For task set up WebdriverIO + Cucumber (As it was done in Cucumber lectures)
-* As you may already notice, the 2 first steps are the same for both scenarios. Please use `Background:` to reduce the number of steps.
-* Before sending me a task prepare README.md so I can run your tests. 
-* Good practice, avoid magic numbers (You can google if you don't know what it means)
-* Use consts for variables
-* For assertions use WebdriverIO
+# Setup
+Clone this repository.
 
-# Hint
-* For "Close the promo banner if it appears" 2 possible ideas. You can use try-catch. Or the banner disappears if you refresh the page when the banner appears.
+# Tests
+Run `yarn install` in the root directory to install all dependencies.  
+Run `yarn wdio` to run test.  
+You will see the test result in the console output.  
+
+
